@@ -2,6 +2,8 @@
 In this repo, I developed a MATLAB script which trains a linear regression model to demosaic an raw Bayer pattern image.
 
 This script produces a lower RMSE error than that of the MATLAB built-in demosaic() function. Here's a sample of the input and output of the script:
+
+
 Input:
 
 
