@@ -1,5 +1,13 @@
 # Demosaicing
-In this repo, I developed a MATLAB script which trains a linear regression model to demosaic an raw Bayer pattern image.
+This project is focused on implementing a highly effective demosaicing algorithm based on linear regression. The goal is to restore full-color images from raw images captured by digital cameras using a color filter array (CFA) and the Bayer Pattern. The Bayer Pattern creates a mosaic of color pixels, and demosaicing algorithms are used to digitally restore the full-color images.
+
+The project consists of the following tasks and requirements:
+
+Simulate four types of mosaic patches from full-color patches.
+Solve a linear least square problem for each case and obtain eight optimal coefficient matrices.
+Apply the coefficient matrices to each patch of a simulated mosaic image to approximate the missing colors.
+Measure the root mean square error (RMSE) between the demosaiced image and the ground truth.
+Run the program on test raw mosaic data provided (to be released prior to the deadline), record the process and output results in a video, and submit the demo video.
 
 This script produces a lower RMSE error than that of the MATLAB built-in demosaic() function. Here's a sample of the input and output of the script:
 
